@@ -7,5 +7,7 @@ setuptools.setup(
     author_email="solocurries@gmail.com",
     description="Simple calculator program written in Python",
     url="https://github.com/badcent/SangTran_calculator",
-    packages=setuptools.find_packages{}
+    packages=setuptools.find_packages(),
+    classifiers=[],
+    python_requires='>=3,12'
 )
